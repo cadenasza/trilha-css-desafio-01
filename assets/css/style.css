@@ -1,0 +1,199 @@
+@import url(../css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-principal: #33A8DB;
+    --fonte-principal: "Raleway", sans-serif;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+    font-family: var(--fonte-principal);
+}
+
+.banner{
+    height: 605px;
+    background-image: url(../images/banner.png);
+    border-bottom: 2px solid var(--cor-principal);
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 510px;
+    height: 393px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 268px;
+    height: 268px;
+    margin-top: 56px;
+}
+
+.banner-content h1 {
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: var(--cor-principal);
+}
+
+.banner-content p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.48px;
+}
+
+.banner-content button {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    width: 326px;
+    padding: 16px 50px;
+    border: 2px solid var(--cor-principal) ;
+    background-color: transparent;
+    color: #31A8DD;
+    font-weight: 900;
+    font-size: 16px;
+    border-radius: 6px;
+}
+.banner-content button:hover{
+    background-color: #3195c0;
+    color: #fff;
+    cursor: pointer;
+}
+
+#course-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:540px ;
+    border-bottom: 1px solid var(--cor-principal);
+    gap: 24px;
+}
+
+#course-content h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    color: var(--cor-principal);
+    text-transform: uppercase;
+}
+
+#course-content p {
+    font-weight: 400px;
+    line-height: 18.78px;
+    text-align: center;
+    width: 792px;
+}
+
+.modules-list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.module {
+    background-color: #252525;
+    border: 1px solid var(--cor-principal);
+    border-radius: 57px;
+    padding: 16px 127px;
+    text-align: center;
+    line-height: 18.78px;
+}
+
+.module span{
+    color: var(--cor-principal);
+}
+
+.module:hover{
+    background-color: transparent;
+    border: 1px solid var(--cor-principal);
+}
+
+#transform-world{
+    background: url(../images/woman-code.png);
+    height: 363px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    border-bottom: 2px solid var(--cor-principal);
+}
+
+#transform-world > p{
+    position:absolute ;
+    font-size: 40px;
+    font-weight: 900;
+    width: 244px;
+    height: 141px;
+    text-align: start;
+    top: 121px;
+    left: 200px;
+    text-transform: lowercase;
+    text-shadow:3px 2px var(--cor-principal);
+}
+
+#professional-challenges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 2px solid var(--cor-principal);
+}
+
+#professional-challenges h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    width: 749px;
+    text-align: center;
+    margin-top: 54px;
+    height: 76px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--cor-principal);
+}
+
+#professional-challenges p {
+    width: 792px;
+    height: 76px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 170px;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    gap: 12px;
+}
+
+footer img{
+    width: 310px;
+    height: 44px;
+}
+
+footer p{
+    font-family: 400;
+    line-height: 18.78px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+
+footer a:hover{
+    border-bottom: 2px solid var(--cor-principal);
+}
